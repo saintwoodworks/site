@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>index</title>
+<link href="bensmain.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jr.js"></script>
+<script type="text/javascript">
+function slideSwitch(switchSpeed) {
+    var $active = $('#slideshow IMG.active');
+    
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    var $next =  $active.next('IMG').length ? $active.next('IMG')
+       : $('#slideshow IMG:first');
+
+    /*
+    var $sibs  = $active.siblings();
+    var rndNum = Math.floor(Math.random() * $sibs.length );
+    var $next  = $( $sibs[ rndNum ] );
+    */
+    
+    $active.addClass('last-active');
+    
+    
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, switchSpeed, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval ( "slideSwitch(1000)", 5000 );    
+});
+</script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <div class="header">
+    
+        <div class="logobg">
+    		<img src="images/logo-bg.png" />
+    	</div>
+    	<div class="logo">
+        	<img src="images/Saint-logo.png" />
+        </div>
+        <div class="lines">
+        	<img src="images/doublelines.png" />
+        </div>
+        <div class="nail">
+        	<a href="mailto:info@saintwoodworks.com"><img src="images/nail-and-tag.png" border="none"/></a>
+        </div>
+        <div class="navbg">
+        	<img src="images/nav-bg.png" />
+        </div>
+        <div class="menu">
+        	<div class="home">
+        		<a href="index.html"><img src="images/home-on.png" width="97" height="35" border="0" alt="home" /></a>
+            </div>
+            <div class="photonav">
+            	<a href="phototwo.html"><img src="images/photogallery-off.png" width="149" height="28" border="0" alt="photo gallery" /></a> 
+            </div>
+            <div class="contactnav">
+            	<a href="contact.html"><img src="images/contact-off.png" width="77" height="23" border="0" alt="contact" /></a>
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="content">
+		<div class="contentleft">
+            <div id="slideshow">
+                <img src="images/bed.png"alt="" class="active" />
+                <img src="images/Home-page-dresser.png" alt="" />
+                <img src="images/testing.png" alt="" />
+            </div>
+    	</div>
+    	<div class="contentright">
+        <p class="quote">From hand crafted original pieces of &nbsp; furniture &nbsp; to custom &nbsp; cabinetry, &nbsp; Saint Woodworks can supply you with &nbsp; all &nbsp; of &nbsp; your &nbsp;fine carpentry needs. &nbsp;We bring the &nbsp; tradition &nbsp; of &nbsp; New England &nbsp; craftsman &nbsp; and three &nbsp; generations &nbsp; of experience to turn every one&nbsp; of &nbsp; our custom pieces into a work of art.</p>
+    	<img src="images/quote-pic.jpg" width="331" height="512" border="0" />
+    	</div>
+    </div>
+    
+  	<div class="footer">
+    	<div class="linkedin">
+        	<a href="http://www.linkedin.com"><img src="images/linked.png" width="140" height="143" alt="LinkedIn" border="none" /></a>
+            <a href="http://www.myspace.com"><img src="images/myspace.png" width="141" height="143" alt="MySpace" border="none"/></a>
+            <div class="fb">
+            <a href="http://www.facebook.com"><img src="images/facebook.png" width="132" height="135" alt="FaceBook"border="none"/></a>
+            </div>
+        </div>
+		<div class="saintdotcom">
+        	<img src="images/saintwoodworksdotcom.png" width="1000" height="145" border="0" alt="saintwoodworks.com" />
+        </div>
+      		<a class="created" href="http://www.auxiliumstudios.com">© 2010 David Conner 2010</a>  
+     
+    </div>
+</div>
+    
+</body>
+</html>

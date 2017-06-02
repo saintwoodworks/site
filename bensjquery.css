@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background: #FFF  url(images/bens-background.png) repeat-x;
+	margin: auto !important;
+	padding: 7px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	height: 1000px;
+	
+	
+}
+
+.header {
+	height: 445px;
+	width: 1000px;
+}
+
+.logo {
+	width:210px;
+	height:304px;
+	margin: 20px 0 0 20px; 
+	position:absolute;
+}
+
+.logobg {
+	width: 363px;
+	height: 384px;
+	margin-top:-30px;
+	margin-left:-50px;
+
+	position:absolute;
+}
+
+.lines {
+	width:653px;
+	height:50px;
+	margin-top:250px;
+	margin-left:300px;
+	position:absolute
+}
+
+.nail {
+	width:359px;
+	height:401px;
+	margin-top:33px;
+	margin-left:344px;
+	position:absolute
+}
+
+
+.navbg {
+	width:368px;
+	height:88px;
+	margin-top:10px;
+	margin-left:615px;
+	position:absolute;
+}
+
+.menu {
+	width:368px;
+	height:88px;
+	margin-top:36px;
+	margin-left:587px;
+	position:absolute;
+	text-decoration:none;
+}
+
+.home {
+	width:97px;
+	height:35px;
+	margin-top:0px;
+	margin-left:25px;
+	position:absolute;
+}
+
+.photonav {
+	width:149px;
+	height:28px;
+	margin-top:5px;
+	margin-left:135px;
+	position:absolute;
+}
+
+.contactnav {
+	width:77px;
+	height:23px;
+	margin-top:5px;
+	margin-left:305px;
+	position:absolute;
+}
+
+a a:visited a:clicked {
+	text-decoration: none;
+	border:none;
+}
+
+.content {
+	width:1000px;
+	height:470px;
+	margin-top:30px;
+}
+
+.form {
+	width:729px;
+	height:423px;
+	background: url(images/email-page.jpg) no-repeat;
+	border:none;
+	position:absolute;
+	margin-top:50px;
+	margin-left:150px;
+}
+
+.kitchenpics {
+	width:387px;
+	height:357px;
+	background:url(images/kitchen-pic-one.png) no-repeat;
+	border:none;
+	position:absolute;
+	margin-top:-510px;
+	margin-left:60px;
+}
+
+.furniturepics {
+	width:402px;
+	height:357px;
+	background: url(images/funiture-pic-one.png) no-repeat;
+	border:none;
+	position:absolute;
+	margin-top:-510px;
+	margin-left:493px;
+}
+
+.next {
+	width:76px;
+	height:37px;
+	background:url(images/next.png) no-repeat;
+	position:absolute;
+	margin-top:-100px;
+	margin-left:807px;;
+}
+
+.prev {
+	width:108px;
+	height:50px;
+	background:url(images/previous.png) no-repeat;
+	position:absolute;
+	margin-top:-105px;
+	margin-left:57px;;
+}
+
+.contactphoto {
+	width:774px;
+	height:587;
+	margin-left:127px;
+}
+
+.contacton {
+	margin-left:-10px;
+	margin-top:-5px;
+}
+
+.photo {
+	margin-left:-18px;
+	margin-top:-20px;
+}
+
+.homeoff {
+	margin-left:10px;
+	margin-top:3px;
+}
+
+
+.content img {
+	margin-top:-50px;
+}
+
+.contentleft {
+	width:500px;
+	height:522px;
+	margin-top:105px;
+	margin-left:20px;
+	position:absolute;
+}
+
+.contentright {
+	width:323px;
+	height:522px;
+	margin-top:10px;
+	margin-left:669px;
+	position:absolute;
+}
+
+.num {
+	width:230px;
+	margin-left:178px;
+	margin-top:270px;
+	font: Tahoma, Geneva, sans-serif;
+	font-size: 90px;
+	letter-spacing:2.5px;
+	line-height:30px;
+	color:#FFF;
+	position:absolute;
+	
+}
+
+.info {
+	width:230px;
+	margin-left:178px;
+	margin-top:329px;
+	font: Tahoma, Geneva, sans-serif;
+	font-size: 48px;
+	line-height:30px;
+	color:#FFF;
+	position:absolute;
+	
+}
+
+.quote {
+	width:230px;
+	margin-left:54px;
+	margin-top:-44px;
+	font:"MS Serif", "New York", serif;
+	font-style:italic;
+	font-size:20px;
+	line-height:30px;
+	position:absolute;
+}
+
+.footer {
+	width:1000px;
+	height:290px;
+	margin-top:35px;
+
+}
+
+.linkedin {
+	width:450px;
+	height:153px;
+	margin-left:300px;
+	
+}
+
+
+.fb {
+	width:132px;
+	height:135px;
+	margin-left:286px;
+	margin-top:-141px
+}
+
+
+.saintdotcom {
+	width:1000px;
+	height:145px;
+	margin-top:-14px;
+	
+}
+
+a.created:link, a.created:visited{
+	width:145px;
+	height:5px;
+	font-size:12px;
+	font-weight:bold;
+	color: #000;
+	text-decoration:none;
+	margin-left:441px;
+	margin-top:-30px;
+	padding-bottom:20px;
+	position:absolute;
+}
+
+
+/*===== Slideshow style =====*/
+ 
+#picbg {
+	width:497px;
+	height:410px;
+    margin:auto;
+	margin-top:135px;
+}
+
+#slideshow {
+	margin:0 auto;
+	margin-top:-447px;
+	width:670px;
+	height:394px;
+	
+	position:relative;
+}
+
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:486px;
+  height:384px;
+  overflow:auto; /* allow scrollbar */
+  position:relative;
+}
+
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:466px; 
+  height:374px;
+}
+
+.slide img {
+  float:right;
+  margin:0 15px;
+  border:solid 5px #6b492a;
+}
+
+ 
+/*===== Slideshow controls style =====*/
+
+
+.control {
+  display:block;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+
+#leftControl {
+	width:108px;
+ 	height:50px;
+	margin-left:-33px;
+	margin-top:150px;
+  	top:0;
+  	left:0;
+  	background:transparent url(images/previous.png) no-repeat 0 0;
+}
+
+#rightControl{
+	width:76px;
+ 	height:37px;
+	margin-right:5px;
+	margin-top:150px;
+  	top:0;
+  	right:0;
+  	background:transparent url(images/next.png) no-repeat 0 0;
+}
+
+
